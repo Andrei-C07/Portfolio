@@ -1,0 +1,15 @@
+*{
+  font-family: "Kanit";
+  color: rgb(255, 255, 212);
+}
+
+body{
+  background: linear-gradient(rgb(48, 48, 48), rgb(16, 14, 22));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+}

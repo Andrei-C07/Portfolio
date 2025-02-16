@@ -1,0 +1,125 @@
+#aboutMe{
+    height: max-content;
+    scroll-margin-top: 110px;
+}
+
+.about{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.andrei{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70% ;
+    height: 624px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50px;
+    margin: 0% 1% 0% 1%;
+    transition: all 0.7s ease;
+    border-color: rgba(111, 112, 146, 0.26);
+    border-style: solid;
+}
+
+.andrei:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+.tools{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 624px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50px;
+    transition: all 0.7s ease;
+    border-color: rgba(111, 112, 146, 0.26);
+    border-style: solid;
+}
+
+.tools:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+.education{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 624px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50px;
+    transition: all 0.7s ease;
+    border-color: rgba(111, 112, 146, 0.26);
+    border-style: solid;
+}
+
+.education:hover{
+    box-shadow: 0px 0px 20px black;
+}
+
+.education_p{
+    width: 300px;
+}
+
+.tools-icons{
+    width: 80px;
+    margin-bottom: 10%;
+}
+
+.pfp-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.pfp-container::after {
+    content: '';
+    display: block;
+    width: 120%; 
+    height: 2px; 
+    background-color: rgb(0, 0, 0); 
+    margin-top: 20px; 
+}
+
+.pfp {
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-width: 2px;
+    object-fit: cover; 
+    margin-top: 25px;
+}
+
+.meDesc{
+    margin-top: 20px;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.orange{
+    color:orange;
+}
+
+.violet{
+    color: rgb(97,98,131);
+}

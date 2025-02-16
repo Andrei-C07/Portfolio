@@ -1,0 +1,33 @@
+.section-Projects{
+    height: fit-content;
+    justify-items: center;
+    scroll-margin-top: 110px;
+}
+
+.projets{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    width: 140%;
+    height: 500px;
+    left: 10%;
+}
+
+#imgMedia{
+    position: relative;
+    height: 80%;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: orange;
+    border-width: 1px;
+    margin-right: 50px;
+}
+
+.project-desc{
+    position: relative;
+    width: 300px;   
+}
+
+.orange-text{
+    color: orange;
+}
